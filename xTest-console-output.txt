@@ -1,0 +1,151 @@
+1248 > mvn test
+Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< org.jboss.resteasy:feb5-full-int-tests >---------------
+[INFO] Building feb5-full-int-tests 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ feb5-full-int-tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ feb5-full-int-tests ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ feb5-full-int-tests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 133 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ feb5-full-int-tests ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 154 source files to /home/rsearls/project/feb5-full-int-tests/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ feb5-full-int-tests ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+[TestNG] [ERROR] No test suite found. Nothing to run
+Usage: <main class> [options] The XML suite files to run
+  Options:
+    -configfailurepolicy
+       Configuration failure policy (skip or continue)
+    -d
+       Output directory
+    -dataproviderthreadcount
+       Number of threads to use when running data providers
+    -excludegroups
+       Comma-separated list of group names to  exclude
+    -groups
+       Comma-separated list of group names to be run
+    -junit
+       JUnit mode
+       Default: false
+    -listener
+       List of .class files or list of class names implementing ITestListener or
+       ISuiteListener
+    -methods
+       Comma separated of test methods
+       Default: []
+    -methodselectors
+       List of .class files or list of class names implementing IMethodSelector
+    -mixed
+       Mixed mode - autodetect the type of current test and run it with
+       appropriate runner
+       Default: false
+    -objectfactory
+       List of .class files or list of class names implementing
+       ITestRunnerFactory
+    -parallel
+       Parallel mode (methods, tests or classes)
+       Possible Values: [tests, methods, classes, instances, none, true, false]
+    -port
+       The port
+    -reporter
+       Extended configuration for custom report listener
+    -suitename
+       Default name of test suite, if not specified in suite definition file or
+       source code
+    -suitethreadpoolsize
+       Size of the thread pool to use to run suites
+       Default: 1
+    -testclass
+       The list of test classes
+    -testjar
+       A jar file containing the tests
+    -testname
+       Default name of test, if not specified in suitedefinition file or source
+       code
+    -testnames
+       The list of test names to run
+    -testrunfactory, -testRunFactory
+       The factory used to create tests
+    -threadcount
+       Number of threads to use when running tests in parallel
+    -usedefaultlisteners
+       Whether to use the default listeners
+       Default: true
+    -log, -verbose
+       Level of verbosity
+    -xmlpathinjar
+       The full path to the xml file inside the jar file (only valid if -testjar
+       was specified)
+       Default: testng.xml
+
+2020-02-10 09:23:06,126 WARN  [io.qua.config] (main) Unrecognized configuration key "quarkus.tester" was provided; it will be ignored
+2020-02-10 09:23:07,149 INFO  [io.quarkus] (main) Quarkus 1.3.0.Alpha1 started in 1.067s. Listening on: http://0.0.0.0:8081
+2020-02-10 09:23:07,150 INFO  [io.quarkus] (main) Profile test activated. 
+2020-02-10 09:23:07,150 INFO  [io.quarkus] (main) Installed features: [cdi, resteasy, servlet]
+2020-02-10 09:23:07,587 INFO  [io.quarkus] (main) Quarkus stopped in 0.020s
+2020-02-10 09:23:08,255 WARN  [io.qua.config] (main) Unrecognized configuration key "quarkus.tester" was provided; it will be ignored
+2020-02-10 09:23:08,384 INFO  [org.jbo.res.res.i18n] (main) RESTEASY002200: Adding class resource org.jboss.resteasy.test.core.basic.resource.AcceptLanguagesResource from Application class org.jboss.resteasy.utils.TestApplication
+2020-02-10 09:23:08,577 INFO  [io.quarkus] (main) Quarkus 1.3.0.Alpha1 started in 0.413s. Listening on: http://0.0.0.0:8081
+2020-02-10 09:23:08,577 INFO  [io.quarkus] (main) Profile test activated. 
+2020-02-10 09:23:08,578 INFO  [io.quarkus] (main) Installed features: [cdi, resteasy, servlet]
+2020-02-10 09:23:08,681 INFO  [org.jbo.res.tes.cor.bas.res.AcceptLanguagesResource] (executor-thread-1) Locales for accepting: de_AT, de, en, en_US, 
+2020-02-10 09:23:08,718 INFO  [io.quarkus] (main) Quarkus stopped in 0.017s
+2020-02-10 09:23:09,082 WARN  [io.qua.config] (main) Unrecognized configuration key "quarkus.tester" was provided; it will be ignored
+2020-02-10 09:23:09,250 INFO  [org.jbo.res.res.i18n] (main) RESTEASY002200: Adding class resource org.jboss.resteasy.test.core.basic.resource.CacheControlAnnotationResource from Application class org.jboss.resteasy.utils.TestApplication
+2020-02-10 09:23:09,423 INFO  [io.quarkus] (main) Quarkus 1.3.0.Alpha1 started in 0.380s. Listening on: http://0.0.0.0:8081
+2020-02-10 09:23:09,423 INFO  [io.quarkus] (main) Profile test activated. 
+2020-02-10 09:23:09,423 INFO  [io.quarkus] (main) Installed features: [cdi, resteasy, servlet]
+2020-02-10 09:23:09,590 INFO  [io.quarkus] (main) Quarkus stopped in 0.019s
+2020-02-10 09:23:09,948 WARN  [io.qua.config] (main) Unrecognized configuration key "quarkus.tester" was provided; it will be ignored
+2020-02-10 09:23:10,301 INFO  [io.quarkus] (main) Quarkus 1.3.0.Alpha1 started in 0.394s. Listening on: http://0.0.0.0:8081
+2020-02-10 09:23:10,302 INFO  [io.quarkus] (main) Profile test activated. 
+2020-02-10 09:23:10,302 INFO  [io.quarkus] (main) Installed features: [cdi, resteasy, servlet]
+2020-02-10 09:23:10,428 INFO  [io.quarkus] (main) Quarkus stopped in 0.016s
+2020-02-10 09:23:10,802 WARN  [io.qua.config] (main) Unrecognized configuration key "quarkus.tester" was provided; it will be ignored
+2020-02-10 09:23:11,018 INFO  [org.jbo.res.res.i18n] (main) RESTEASY002200: Adding class resource org.jboss.resteasy.test.core.basic.resource.NullHeaderResource from Application class org.jboss.resteasy.utils.TestApplication
+2020-02-10 09:23:11,197 INFO  [io.quarkus] (main) Quarkus 1.3.0.Alpha1 started in 0.473s. Listening on: http://0.0.0.0:8081
+2020-02-10 09:23:11,197 INFO  [io.quarkus] (main) Profile test activated. 
+2020-02-10 09:23:11,198 INFO  [io.quarkus] (main) Installed features: [cdi, resteasy, servlet]
+09:23:11.209 INFO  [org.jboss.resteasy.test.core.basic.resource.NullHeaderFilter] (main) added X-Client-Header
+2020-02-10 09:23:11,327 INFO  [io.quarkus] (main) Quarkus stopped in 0.015s
+2020-02-10 09:23:11,650 WARN  [io.qua.config] (main) Unrecognized configuration key "quarkus.tester" was provided; it will be ignored
+2020-02-10 09:23:11,755 INFO  [org.jbo.res.res.i18n] (main) RESTEASY002200: Adding class resource org.jboss.resteasy.test.core.basic.resource.PrivateConstructorServiceResource from Application class org.jboss.resteasy.utils.TestApplication
+2020-02-10 09:23:11,950 INFO  [io.quarkus] (main) Quarkus 1.3.0.Alpha1 started in 0.339s. Listening on: http://0.0.0.0:8081
+2020-02-10 09:23:11,950 INFO  [io.quarkus] (main) Profile test activated. 
+2020-02-10 09:23:11,950 INFO  [io.quarkus] (main) Installed features: [cdi, resteasy, servlet]
+2020-02-10 09:23:12,080 INFO  [io.quarkus] (main) Quarkus stopped in 0.017s
+2020-02-10 09:23:12,434 WARN  [io.qua.config] (main) Unrecognized configuration key "quarkus.tester" was provided; it will be ignored
+2020-02-10 09:23:12,552 INFO  [org.jbo.res.res.i18n] (main) RESTEASY002200: Adding class resource org.jboss.resteasy.test.core.basic.resource.ByeResource from Application class org.jboss.resteasy.utils.TestApplication
+2020-02-10 09:23:12,740 INFO  [io.quarkus] (main) Quarkus 1.3.0.Alpha1 started in 0.358s. Listening on: http://0.0.0.0:8081
+2020-02-10 09:23:12,740 INFO  [io.quarkus] (main) Profile test activated. 
+2020-02-10 09:23:12,740 INFO  [io.quarkus] (main) Installed features: [cdi, resteasy, servlet]
+2020-02-10 09:23:12,868 INFO  [io.quarkus] (main) Quarkus stopped in 0.015s
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.608 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.124 s
+[INFO] Finished at: 2020-02-10T09:23:13-05:00
+[INFO] ------------------------------------------------------------------------
+1249 > 
